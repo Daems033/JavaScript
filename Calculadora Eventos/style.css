@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.container {
+    border: 1px solid white;
+    background-color: #37474f;
+    border-radius: 5px;
+    margin: auto;
+    width: 400px;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 8px;
+}
+
+button {
+    height: 80px;
+    background-color: #ffa53d;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    font-size: 2rem;
+    margin: 3px;
+}
+
+button:hover {
+    background-color: #eb8f25;
+}
+
+div#screen {
+    font-size: 3rem;
+    background-color: white;
+    color: #7e6344;
+    text-align: right;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-top: 13px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+button.number {
+    background-color: #e0e0e0;
+}
+
+button.number:hover {
+    background-color: #c2c2c2;
+}
